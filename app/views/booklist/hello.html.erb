@@ -1,0 +1,15 @@
+<h1>Bom dia</h1>
+
+<p>Os dados Cadastrados atualmente são essas</p>
+
+<ul>
+	<%
+		@titles.each do |title|
+	%>
+	
+	<li>Titulo<%= title.name   %>, Data <%= title.sales_date %></li>
+	<% end %>
+	
+</ul>
+	
+	
